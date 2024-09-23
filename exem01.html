@@ -11,12 +11,12 @@
              var conteudo = document.getElementById('conteudo');
              conteudo.innerHTML ="texto diferente";
              conteudo.style.color ="white";
-             conteudo.style.backgroundColor ="purple";  
+             conteudo.style.backgroundColor ="blue";  
          }
          function mudarCor(x) {
              var conteudo = document.getElementById('conteudo');
              conteudo.innerHTML ="texto diferente";
-             conteudo.style.color ="orange";
+             conteudo.style.color ="red";
              conteudo.style.backgroundColor ="black";  
            }   
             function bigImg(x) {
@@ -38,43 +38,4 @@
 </body>
 </html>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
-    <script>
-        function mostrar(){
-            // alert("teste");
-             var conteudo = document.getElementById('conteudo');
-             conteudo.innerHTML ="texto diferente";
-             conteudo.style.color ="white";
-             conteudo.style.backgroundColor ="purple";  
-         }
-         function mudarCor(x) {
-             var conteudo = document.getElementById('conteudo');
-             conteudo.innerHTML ="texto diferente";
-             conteudo.style.color ="orange";
-             conteudo.style.backgroundColor ="black";  
-           }   
-            function bigImg(x) {
-                x.style.height = "300px";
-                x.style.width = "300px";
-              }
-              function normalImg(x) {
-                x.style.height = "100px";
-                x.style.width = "100px";
-              }
-              
-    </script>
-</head>
-<body>
-    <h1>exemplo javascri</h1>
-    <p id="conteudo">texto qualquer</p>
-    <img onmouseenter="bigImg(conteudo)" onmouseleave="normalImg(conteudo)" 
-    src="https://www.petz.com.br/blog/wp-content/uploads/2019/03/cachorro-mini-pet.jpg" alt="chorro" >
-</body>
-</html>
 
