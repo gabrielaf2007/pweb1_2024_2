@@ -1,0 +1,16 @@
+body{
+    background-color: white;
+}
+h1{
+    color: black;
+    font-family: 'Roboto', 'sans-serif';
+    padding: 20px ;
+}
+p{
+    color: blueviolet;
+    font-size: 30px;
+    border: solid purple 2px;
+    margin: 10px;
+    padding: 3px;
+    border-radius: 10px;
+}
